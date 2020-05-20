@@ -34,6 +34,10 @@ import project5_img4 from '../../../images/project5/4.png'
 import project5_img5 from '../../../images/project5/5.png'
 
 
+import project6_img1 from '../../../images/project6/1.png'
+import project6_img2 from '../../../images/project6/2.png'
+import project6_img3 from '../../../images/project6/3.png'
+
 export const projects_list = [
     {
         name:'Assignments CRM',
@@ -56,7 +60,7 @@ export const projects_list = [
         images:[project3_img1,project3_img2,project3_img3,project3_img4,project3_img5],
         main_image:project3_img1,
         tech:['HTML5', 'CSS3', 'React','Redux'],
-        live_url:'https://tennis-shop.herokuapp.com/',
+        live_url:'https://tennis-shop.netlify.app/',
         text:['This project is a demo-store that contains client-side development. ','The purpose of it is to demonstrate my knowledge in e-commerce sites such as this one. ','Some of the store’s features are: ', '- Select tennis products from a wide range of categories', '- Filter and search for a specific product', '- Add products to a shopping cart', '- Explore and see what equipment is used by professional athletes']
     },
     {
@@ -66,6 +70,14 @@ export const projects_list = [
         tech:['HTML5', 'CSS3', 'React'],
         live_url:'https://www.krembo.org.il/',
         text:['A project I have built as part of my work as a donation for the “Krembo Wings” foundation. In this project I was responsible for all client-side development from start to finish. ', 'This project is the flagship site of the nonprofit foundation, which aims to: ', '- Allow donors to donate directly through the website', '- Enables new members to sign up for the foundation', '- Provides various information about the foundation\'s branches and management', '- Allows contact via email','- And more']
+    },
+    {
+        name:'Form Builder',
+        images:[project6_img1,project6_img2,project6_img3],
+        main_image:project6_img1,
+        tech:['HTML5', 'CSS3', 'React', 'Redux'],
+        live_url:'https://simple-form-builder.netlify.app/',
+        text:['This project is a form-building tool designed to let the user build the form in the simplest way possible. ','On this site, you can put together a form and look at the results.']
     },
   
     {
