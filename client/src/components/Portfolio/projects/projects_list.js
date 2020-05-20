@@ -48,7 +48,7 @@ export const projects_list = [
         images:[project5_img1,project5_img2,project5_img3,project5_img4,project5_img5],
         main_image:project5_img1,
         tech:['HTML5', 'CSS3', 'React', 'Redux'],
-        live_url:'https://awesome-movies-app.herokuapp.com/',
+        live_url:'https://awesome-movie-app.netlify.app/',
         text:['This project is a movie site, which aims to present information such as release date, general overview, trailer and more. ','It also provides information about the newest and most popular films. I used The Movie DB (TMDb) API in this project.']
     },
     {
