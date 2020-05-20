@@ -26,6 +26,9 @@ class Portolio extends Component {
         behavior:'smooth'
       })
   }
+  goToContact = () => {
+    this.props.history.push(CONTACT_ROUTE)
+  }
   render() {
     return (
       <div className="portfolio">
@@ -48,9 +51,11 @@ class Portolio extends Component {
           </Fade>
          
             <Fade bottom duration={500} delay={900}>
-              <Button className="main__btn" variant="contained" color="primary">
-              <Link to={CONTACT_ROUTE}>   {text.CONTACT_ME} </Link>
-             
+              <Button 
+              onClick = {() => this.goToContact()}
+              className="main__btn" variant="contained" color="primary">
+             {text.CONTACT_ME}
+
               </Button>
             </Fade>
          

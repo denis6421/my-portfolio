@@ -40,8 +40,6 @@
       border-radius: 2px;
       box-shadow: 0 5px 15px 0 rgba(98, 54, 255, 0.3);
       overflow: hidden; }
-      .portfolio__header button a {
-        color: white; }
     .portfolio__header__logo {
       position: relative;
       width: 54px;
