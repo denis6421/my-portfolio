@@ -38,13 +38,19 @@ import project6_img1 from '../../../images/project6/1.png'
 import project6_img2 from '../../../images/project6/2.png'
 import project6_img3 from '../../../images/project6/3.png'
 
+
+import project7_img1 from '../../../images/project7/1.png'
+import project7_img2 from '../../../images/project7/2.png'
+import project7_img3 from '../../../images/project7/3.png'
+import project7_img4 from '../../../images/project7/4.png'
+
 export const projects_list = [
     {
         name:'Assignments CRM',
         images:[project1_img1,project1_img2,project1_img3,project1_img4],
         main_image:project1_img1,
         tech:['HTML5', 'SASS', 'React', 'Redux', 'NodeJs', 'MongoDB'],
-        live_url:'https://assignments-crm.herokuapp.com/login/demo',
+        live_url:'https://employees-todo.netlify.app/login/demo',
         text:['This project is a system for managing small business employees. ', 'The purpose of this system is to give the manager the opportunity to create employees, tasks, and associate between them. ', 'Employees can log into their accounts, and only see the tasks associated to them, they can mark which ones they are working on, allowing the manager to track employee progress for each task.']
     },
     {
@@ -54,6 +60,14 @@ export const projects_list = [
         tech:['HTML5', 'CSS3', 'React', 'Redux'],
         live_url:'https://awesome-movie-app.netlify.app/',
         text:['This project is a movie site, which aims to present information such as release date, general overview, trailer and more. ','It also provides information about the newest and most popular films. I used The Movie DB (TMDb) API in this project.']
+    },
+    {
+        name:'My Social Network',
+        images:[project7_img2,project7_img3,project7_img1,project7_img4],
+        main_image:project7_img2,
+        tech:['HTML5', 'SCSS', 'React','Hooks', 'Redux'],
+        live_url:'https://my-social-network.netlify.app/',
+        text:['This project is a social network platform. ','Through this system, you can upload posts, see posts from other users, like, and comment. ','There is a demo account in the link, enter it and start uploading some fun posts! :)']
     },
     {
         name:'Tennis Shop',
